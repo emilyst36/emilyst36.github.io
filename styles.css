@@ -3,7 +3,7 @@ html{
 }
 
 @font-face {
-    font-family: 'Londrina Shadow', Brush Script MT, Times New Roman, serif;
+    font-family: 'Londrina Shadow';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/londrinashadow/v20/oPWX_kB4kOQoWNJmjxLV5JuoCUlnQVyT5EncCA.woff2) format('woff2');
@@ -16,7 +16,7 @@ html{
 }
 
 h1{
-    font-family: 'Londrina Shadow';
+    font-family: 'Londrina Shadow', Brush Script MT, Times New Roman, serif;
     font-size: 100px;
     color: whitesmoke;
     letter-spacing: 20px;
