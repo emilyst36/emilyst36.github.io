@@ -1,0 +1,226 @@
+html {
+    background-color: white;
+    text-align: center;
+    background-color: #fffbf0;
+}
+
+#image {
+    max-width: 25%;
+    size: auto;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+/*Font Face Section*/
+
+@font-face {
+    font-family:'Square Peg';
+    src: url(https://fonts.gstatic.com/s/squarepeg/v1/y83eW48Nzw6ZlUHc-phrNDbhHVXoBPA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+@font-face {
+    font-family:'Playfair Display';
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v28/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXtHA_3-uE0qEEw.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-style: italic;
+    font-weight:400;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRTQgYoZZY2vCFuvAFT_r21cgT9rcs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRSQgYoZZY2vCFuvAnt66qSVyvVp8NA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRVQgYoZZY2vCFuvAFWzr-_dSb_.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRQQgYoZZY2vCFuvAFT9gaQZynfoOFC-I0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRTQgYoZZY2vCFuvAFT_r21cgT9rcs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* Color Section*/
+
+.container-color-section{ 
+    display: block;
+    box-sizing: content-box;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1px auto;
+    height: 380px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+   
+}
+
+.color-container {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.color-panel {
+    display: inline-block;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.parchment {
+    background-color: #fffbf0;
+    position: absolute;
+    left: 116px;
+    top: 81.828px;
+}
+.rosebush {
+    background-color: #ffccd5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.lavender {
+    background-color: #dab3ff;
+    position: absolute;
+    top: 81.828px;
+    right: 116px;
+}
+.wineberry {
+    background-color: #660066;
+    color: white;
+    position: absolute;
+    top: 203.828px;
+    left: 116px;
+}
+.forestgreen {
+    background-color: #003300;
+    color: white;
+    position: absolute;
+    top: 203.828px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  
+}
+.library {
+    background-color: #592115;
+    color: white;
+    position: absolute;
+    top: 203.828px;
+    right: 116px;
+}
+
+/*Font Section*/
+
+.square-peg {
+    font-family: 'Square Peg', cursive;
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+.pt-serif {
+    font-family: 'PT Serif', serif;
+}
+
+.font-label {
+    font-size: 30px;
+}
+
+.example {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container-font-section {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1px auto;
+    height: auto;
+    position: static;
+    background-color: #fffbf0;
+   
+}
+
+
+/*Text Styles Section*/
+.container-text-styles-section {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1px auto;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: #003300;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    color: #592115;
+}
+
+h3 {
+    font-family:'Playfair-Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #660066;
+}
+
+.paragraph-example {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight:normal;
+    color: #592115;
+}
